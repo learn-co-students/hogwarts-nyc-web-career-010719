@@ -64,7 +64,7 @@ ul {
 
 .subtleText {
   color: #D1D1D1;
-  font-size: .75em; 
+  font-size: .75em;
 }
 
 
@@ -119,6 +119,7 @@ ul {
 
 .pigTile:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 
@@ -133,6 +134,9 @@ ul {
   clear: both;
 }
 
+.hidden {
+  display: none;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
