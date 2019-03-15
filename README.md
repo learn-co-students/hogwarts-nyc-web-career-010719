@@ -1,6 +1,9 @@
 # Hogwarts: The React app for fans of prize-winning pigs
 
 ## React Week 1 Project
+FilterContainer -> filters/sort (sort:name/weight, filter:greased boolean)
+HogContainer -> Hog -> basic/adv details (basic:name/img, adv: name, weight-ratio, greased, medal)
+
 
 ## Project goals:
 
