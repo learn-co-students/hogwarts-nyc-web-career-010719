@@ -1,7 +1,8 @@
 import piggy from '../porco.png'
 import React from 'react'
+import Search from './Search'
 
-const Nav = () => {
+const Nav = (props) => {
 	return (
 		<div className="navWrapper">
 			<span className="headerText">Hogwarts</span>
@@ -11,6 +12,7 @@ const Nav = () => {
 				</a>
 			</div>
 			<span className="normalText">A React App for County Fair Hog Fans</span>
+			<Search filter={props.filter}/>
 		</div>
 	)
 }
