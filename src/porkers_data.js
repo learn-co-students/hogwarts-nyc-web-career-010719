@@ -1,5 +1,8 @@
+let id = 0
+
 const hogs = [
   {
+    id: id,
     name: 'Mudblood',
     specialty: 'Mediocre magic',
     greased: false,
@@ -7,6 +10,7 @@ const hogs = [
     'highest medal achieved': 'bronze'
   },
   {
+    id: ++id,
     name: 'Porkchop',
     specialty: 'Making friends',
     greased: true,
@@ -14,6 +18,8 @@ const hogs = [
     'highest medal achieved': 'silver'
   },
   {
+    id: ++id,
+    id: ++id,
     name: 'Cherub',
     specialty: 'truffle finder',
     greased: false,
@@ -21,6 +27,7 @@ const hogs = [
     'highest medal achieved': 'gold'
   },
   {
+    id: ++id,
     name: 'Piggy smalls',
     specialty: 'Massivity',
     greased: true,
@@ -28,6 +35,7 @@ const hogs = [
     'highest medal achieved': 'platinum'
   },
   {
+    id: ++id,
     name: 'Trouble',
     specialty: 'Racing',
     greased: true,
@@ -35,6 +43,7 @@ const hogs = [
     'highest medal achieved': 'gold'
   },
   {
+    id: ++id,
     name: 'Sobriety',
     specialty: 'Expert Witness',
     greased: false,
@@ -42,6 +51,7 @@ const hogs = [
     'highest medal achieved': 'silver'
   },
   {
+    id: ++id,
     name: 'Rainbowdash',
     specialty: 'Union Busting',
     greased: false,
@@ -49,6 +59,7 @@ const hogs = [
     'highest medal achieved': 'wood'
   },
   {
+    id: ++id,
     name: 'TruffleShuffle',
     specialty: 'Finding truffles',
     greased: true,
@@ -56,6 +67,7 @@ const hogs = [
     'highest medal achieved': 'gold'
   },
   {
+    id: ++id,
     name: 'Bay of Pigs',
     specialty: 'Hamphlet Distribution',
     greased: false,
@@ -63,6 +75,7 @@ const hogs = [
     'highest medal achieved': 'diamond'
   },
   {
+    id: ++id,
     name: 'The Prosciutto Concern',
     specialty: 'truffle finder',
     greased: false,
@@ -70,6 +83,7 @@ const hogs = [
     'highest medal achieved': 'bronze'
   },
   {
+    id: ++id,
     name: 'Galaxy Note',
     specialty: 'Airport Security',
     greased: true,
@@ -77,6 +91,7 @@ const hogs = [
     'highest medal achieved': 'diamond'
   },
   {
+    id: ++id,
     name: 'Leggo My Eggo',
     specialty: 'Babysitting',
     greased: true,
@@ -84,6 +99,7 @@ const hogs = [
     'highest medal achieved': 'platinum'
   },
   {
+    id: ++id,
     name: 'Augustus Gloop',
     specialty: 'Vacuum tubes',
     greased: true,
